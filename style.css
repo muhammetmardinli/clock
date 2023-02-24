@@ -1,0 +1,36 @@
+.stack {
+    width: 50%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+
+
+#main {
+    width: 82.5rem;
+    height: 46.5rem;
+
+    background-image: url('imgs/clock.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#circle {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    border: 0.75rem solid black;
+    box-sizing: border-box;
+    color: aqua;
+    align-content: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+}
